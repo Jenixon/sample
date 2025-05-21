@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  background-color: rgb(87, 75, 144);
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+
+.form{
+  background-color: rgb(120, 111, 166);
+  border-radius: 5px;
+  height: auto;
+  width: 400px;
+
+  display: flex;
+  flex-direction: column;
+
+ 
+  
+
+}
+
+
+
+.form h1{
+    font-family: "Gentium Plus", serif;
+  padding: 5px;
+ 
+  text-align: center;
+  font-size: 24px;
+}
+.form label{
+  padding: 5px;
+  margin:0px 35px ;
+ 
+
+}
+.form input{
+  padding: 3px;
+  width: 70%;
+  margin: 0px 40px;
+    
+ 
+}
+.form select{
+    padding: 3px;
+  width: 72%;
+  margin: 0px 40px;
+ 
+
+}
+.buttons{
+  padding: 10px;
+  margin-left: 70px;
+  display: flex;
+  gap: 5px;
+ 
+ 
+}
+
+.ad{
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 80px;
+  padding: 5px;
+
+}
+.vi{
+   background-color: red;
+  color: white;
+  border: none;
+  width: 80px;
+   padding: 5px;
+
+}
+.back{
+  background-color: yellow;
+  width: 60px;
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  margin: 10px;
+
+}
+table {
+  border: 2px solid black;
+  width: 100%;
+  border-collapse: collapse; /* ✅ recommended to avoid double borders */
+  margin: 0 auto; /* ✅ centers the table horizontally */
+}
+
+tr, th, td {
+  border: 2px solid black;
+  padding: 8px; /* ✅ adds spacing inside cells */
+  text-align: center; /* ✅ optional: center the text inside cells */
+}
+.save{
+  background-color: green;
+}
+.update{
+  background-color: green;
+}
+.cancel{
+  background-color: red;
+}
+.delete{
+  background-color: red;
+}
+
